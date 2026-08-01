@@ -1,1 +1,75 @@
+@font-face {
+    font-family: 'myFont-regular';
+    src: url('../assets/fonts/JetBrainsMono-Regular.ttf') format('truetype');
+    font-weight: 400;
+    /* or 'normal' for normal weight fonts */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'myFont-bold';
+    src: url('../assets/fonts/JetBrainsMono-Bold.ttf') format('truetype');
+    font-weight: 700;
+    /* this is standard for bold fonts */
+    font-style: normal;
+}
+
+:root {
+    /* color */
+    --text-color: white;
+    --link-color: #81C5F8 ;
+    --link-active-color:  #A371F7;
+}
+
+html {
+    color-scheme: dark;
+}
+
+body {
+    font-family: 'myFont-regular';
+}
+
+.parent {
+    align-items: center;
+}
+
+.child {
+    width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    /* add margin here to test */
+}
+
+.navigation-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-bar .left a {
+    color: var(--text-color);
+    text-decoration: none;
+    cursor:default ;
+}
+
+.navigation-bar .right {
+    display: flex;
+    flex-direction: row;
+}
+
+.navigation-bar .right .cell a {
+    color: var(--link-color);
+    text-decoration: none;
+    padding-right: 7px;
+    margin: auto 5px;
+}
+
+.navigation-bar .right .cell a:hover {
+    text-decoration: underline;
+}
+
+.navigation-bar .right .cell a:active {
+    text-decoration: underline;
+    color: var(--link-active-color);
+}
 

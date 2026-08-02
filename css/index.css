@@ -11,18 +11,19 @@
     src: url('../assets/fonts/JetBrainsMono-Bold.ttf') format('truetype');
     font-weight: 700;
     /* this is standard for bold fonts */
-    font-style: normal;
+    font-style: bold;
 }
 
 :root {
     /* color */
     --text-color: white;
-    --link-color: #81C5F8 ;
-    --link-active-color:  #A371F7;
+    --link-color: #81C5F8;
+    --link-active-color: #A371F7;
 }
 
 html {
     color-scheme: dark;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -49,7 +50,7 @@ body {
 .navigation-bar .left a {
     color: var(--text-color);
     text-decoration: none;
-    cursor:default ;
+    cursor: default;
 }
 
 .navigation-bar .right {
@@ -73,3 +74,31 @@ body {
     color: var(--link-active-color);
 }
 
+main {
+    text-align: justify;
+}
+
+main a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
+main a:active {
+    color: var(--link-active-color);
+    text-decoration: underline;
+}
+
+.skills .cell {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.skills .cell img {
+    width: 40px;
+    margin: 5px;
+}

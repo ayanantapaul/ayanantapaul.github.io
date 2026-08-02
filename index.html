@@ -16,20 +16,31 @@
 <body>
     <div class="parent">
         <div class="child">
+
+            <!-- navigation bar -->
             <div class="navigation-bar">
 
+                <!-- left section of navigation bar -->
                 <div class="left">
                     <div class="cell">
                         <a href="/">
-                            <span><strong><h2>Ayananta Paul</h2></strong></span>
+                            <span><strong>
+                                    <h2>Ayananta Paul</h2>
+                                </strong></span>
                         </a>
                     </div>
                 </div>
 
+                <!-- right section of navigation bar -->
                 <div class="right">
                     <div class="cell">
                         <a href="https://github.com/ayanantapaul">
                             <span>GitHub</span>
+                        </a>
+                    </div>
+                    <div class="cell">
+                        <a href="https://codeforces.com/profile/xunzi">
+                            <span>Codeforces</span>
                         </a>
                     </div>
                     <div class="cell">
@@ -38,7 +49,7 @@
                         </a>
                     </div>
                     <div class="cell">
-                        <a href="resume.pdf">
+                        <a href="">
                             <span>Resume</span>
                         </a>
                     </div>
@@ -51,14 +62,121 @@
 
             </div>
 
-            <div class="intro">
+            <main>
+                <!-- introduction -->
+                <div class="intro">
+                    <p>
+                        Hi there, I'm Ayananta Paul, a B.Tech Student in Electronics and Computer Science Engineering
+                        student.
+                        I am passionate about bridging the gap between hardware and software, exploring embedded
+                        systems,
+                        IoT, and Linux Kernel development.
+                    </p>
+
+                    <!-- list of internal links -->
+                    <ul>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#contributions">Contributions</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#education">Education</a></li>
+                    </ul>
+                </div>
+
+                <!-- experience -->
+                <div class="experiece" id="experience">
+                    <h2><span>Experience</span></h2>
+                    <ul>
+                        No experiences
+                    </ul>
+                </div>
+
+                <!-- contributions -->
+                <div class="contributions" id="contributions">
+                    <h2><span>Contributions</span></h2>
+                    <ul>
+                        No contributions
+                    </ul>
+                </div>
+
+                <!-- skills -->
+                <div class="skills" id="skills">
+                    <h2><span>Skills</span></h2>
+                    <ul>
+                        <div class="cell">
+                            <img src="./assets/icons/c-logo.png" alt="c-programming-language">
+                            C
+                        </div>
+                        <div class="cell">
+                            <img src="./assets/icons/cpp-logo.png" alt="cpp">
+                            C++
+                        </div>
+                        <div class="cell">
+                            <img src="./assets/icons/python-logo.png" alt="python-ogramming-language">
+                            Python
+                        </div>
+                        <div class="cell">
+                            <img src="./assets/icons/html-logo.png" alt="html">
+                            HTML
+                        </div>
+                        <div class="cell">
+                            <img src="./assets/icons/css-logo.png" alt="css">
+                            CSS
+                        </div>
+                    </ul>
+                </div>
+
+                <!-- projects -->
+                <div class="projects" id="projects">
+                    <h2><span>Projects</span></h2>
+                    <ul>
+                        <li>
+                            <a href="https://github.com/ayanantapaul/text-to-pdf">Text to PDF Converter </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Education -->
+                <div class="education" id="education">
+                    <h2><span>Education</span></h2>
+                    <ul>
+                        <li>
+                            Bachelor of Technology @ <a href="https://www.nit.ac.in/">
+                                Narula Institute of Technology
+                            </a>
+                            <br>
+                            Electronics & Computer Science Engineering, CGPA: -
+                        </li>
+                        <li>
+                            Senior Secondary Schooling @ <a href="#education">
+                                Kalyani Public School
+                            </a>
+                            <br>
+                            12th Standard CGPA: 6.82
+                        </li>
+                        <li>
+                            Secondary Schooling @ <a href="#education">
+                                Calcutta Airport English High School
+                            </a>
+                            <br>
+                            10th Standard CGPA: 8.13
+                        </li>
+                    </ul>
+                </div>
+
+            </main>
+
+            <hr>
+            <footer>
                 <p>
-                    Hi there, I'm Ayananta Paul,
-                    B.Tech Student in Electronics and Computer Science Engineering
-                    I am passionate about bridging the gap between hardware and software, exploring embedded systems,
-                    IoT, and Linux Kernel development.
+                    &copy; <span id="year"></span> <strong>Ayananta Paul</strong>. All rights reserved.
                 </p>
-            </div>
+            </footer>
+
+            <script>
+                // Automatically updates the year to the current year
+                document.getElementById("year").textContent = new Date().getFullYear();
+            </script>
 
         </div>
     </div>

@@ -38,7 +38,7 @@ body {
     width: 700px;
     margin: 20px auto;
     padding: 20px;
-    /* add margin here to test */
+    /* add red borders here to test */
 }
 
 .navigation-bar {
@@ -61,7 +61,7 @@ body {
 .navigation-bar .right .cell a {
     color: var(--link-color);
     text-decoration: none;
-    padding-right: 7px;
+    padding-left: 7px;
     margin: auto 5px;
 }
 

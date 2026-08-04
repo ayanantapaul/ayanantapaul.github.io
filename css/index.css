@@ -36,7 +36,7 @@ body {
 
 .child {
     width: 700px;
-    margin: 20px auto;
+    margin: 0 auto;
     padding: 20px;
     /* add red borders here to test */
 }

@@ -41,35 +41,35 @@ body {
     /* add red borders here to test */
 }
 
-.navigation-bar {
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.navigation-bar .left a {
+nav .left a {
     color: var(--text-color);
     text-decoration: none;
     cursor: default;
 }
 
-.navigation-bar .right {
+nav .right {
     display: flex;
     flex-direction: row;
 }
 
-.navigation-bar .right .cell a {
+nav .right .cell a {
     color: var(--link-color);
     text-decoration: none;
     padding-left: 7px;
     margin: auto 5px;
 }
 
-.navigation-bar .right .cell a:hover {
+nav .right .cell a:hover {
     text-decoration: underline;
 }
 
-.navigation-bar .right .cell a:active {
+nav .right .cell a:active {
     text-decoration: underline;
     color: var(--link-active-color);
 }
@@ -92,13 +92,23 @@ main a:active {
     text-decoration: underline;
 }
 
-.skills .cell {
+#skills .cells {
     display: flex;
-    align-items: center;
-    gap: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.skills .cell img {
-    width: 40px;
+#skills .cell {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid grey;
+    padding: 10px;
+    margin: 10px;
+    gap: 10px;
+}
+
+#skills .cell img {
+    height: 50px;
     margin: 5px;
 }

@@ -99,6 +99,12 @@ main a:active {
     text-decoration: underline;
 }
 
+#experience .element {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 #skills .cells {
     display: flex;
     flex-wrap: wrap;

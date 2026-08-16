@@ -19,6 +19,13 @@
     --text-color: white;
     --link-color: #81C5F8;
     --link-active-color: #A371F7;
+    --selection-background: #97d2ff;
+    --selection-color: black;
+}
+
+::selection {
+    background: var(--selection-background);
+    color: var(--selection-color);
 }
 
 html {

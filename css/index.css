@@ -1,17 +1,9 @@
 @font-face {
     font-family: 'myFont-regular';
-    src: url('../assets/fonts/IosevkaTermNerdFont-Regular.ttf') format('truetype');
+    src: url('../assets/fonts/IosevkaNerdFont-Regular.ttf') format('truetype');
     font-weight: 400;
     /* or 'normal' for normal weight fonts */
     font-style: normal;
-}
-
-@font-face {
-    font-family: 'myFont-semibold';
-    src: url('../assets/fonts/IosevkaTermNerdFont-SemiBold.ttf') format('truetype');
-    font-weight: 700;
-    /* this is standard for bold fonts */
-    font-style: bold;
 }
 
 :root {

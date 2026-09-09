@@ -22,7 +22,6 @@
 
 html {
     color-scheme: dark;
-    background-color: black;
     scroll-behavior: smooth;
 }
 
@@ -123,6 +122,10 @@ li {
 }
 
 @media (max-width: 500px) {
+
+    main  {
+        text-align: left;
+    }
 
     nav {
         flex-direction: column;

@@ -123,31 +123,13 @@ li {
 
 @media (max-width: 500px) {
 
-    main  {
-        text-align: left;
-    }
+body {
+    font-size: 70%;
+}
 
-    nav {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 10px;
-    }
-
-    nav .right {
-        flex-direction: row;
-        gap: 10px;
-    }
-
-    nav .right .cell a {
-        padding: 15px;
-        padding-left: 0;
-        margin: 0;
-    }
-
-    .element {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 5px;
-    }
+#skills .cell img {
+    height: 35px;
+    margin: 5px;
+}
 
 }

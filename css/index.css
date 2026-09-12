@@ -124,11 +124,11 @@ li {
 @media (max-width: 500px) {
 
 body {
-    font-size: 80%;
+    font-size: 50%;
 }
 
 #skills .cell img {
-    height: 35px;
+    height: 20px;
     margin: 5px;
 }
 

@@ -123,13 +123,21 @@ li {
 
 @media (max-width: 750px) {
 
-body {
-    font-size: 50%;
-}
+    body {
+        font-size: 50%;
+    }
 
-#skills .cell img {
-    height: 20px;
-    margin: 5px;
-}
+    #skills .cell img {
+        height: 20px;
+        margin: 2px;
+    }
+
+    #skills .cell {
+        border-radius: 1.5px;
+        padding: 5px;
+        margin: 4px;
+        gap: 5px;
+    }
+
 
 }

@@ -121,7 +121,7 @@ li {
     padding-bottom: 5px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 750px) {
 
 body {
     font-size: 50%;

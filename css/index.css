@@ -11,8 +11,8 @@
     --text-color: white;
     --link-color: #81C5F8;
     --link-active-color: #A371F7;
-    --selection-background: #97d2ff;
-    --selection-color: black;
+    --selection-background: #97D2FF;
+    --selection-color: BLACK;
 }
 
 ::selection {
@@ -26,7 +26,8 @@ html {
 }
 
 body {
-    font-family: 'myFont-regular';
+    font-family: monospace;
+    font-size: 120%;
     text-align: justify;
 }
 
@@ -121,6 +122,8 @@ li {
     padding-bottom: 5px;
 }
 
+/* for mobile devices with screen 
+ * width less than 750 pixels */
 @media (max-width: 750px) {
 
     body {

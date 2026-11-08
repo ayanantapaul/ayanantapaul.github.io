@@ -127,11 +127,11 @@ li {
 @media (max-width: 750px) {
 
     body {
-        font-size: 70%;
+        font-size: 55%;
     }
 
     #skills .cell img {
-        height: 40px;
+        height: 30px;
         margin: 2px;
     }
 
@@ -141,6 +141,5 @@ li {
         margin: 4px;
         gap: 5px;
     }
-
 
 }

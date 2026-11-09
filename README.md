@@ -1,1 +1,204 @@
-This is my *personal* website hosted using **GitHub Pages**.
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta name="author" content="Ayananta Paul">
+    <meta name="description" content="Ayananta's personal website">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayananta Paul</title>
+    <link rel="stylesheet" href="./css/index.css" type="text/css">
+    <link rel="icon" href="./assets/icons/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="parent">
+        <div class="child">
+
+            <!-- navigation bar -->
+            <nav>
+
+                <!-- left section of navigation bar -->
+                <div class="left">
+                    <div class="cell">
+                        <a href="/">
+                            <span><strong>
+                                    <h2>Ayananta Paul</h2>
+                                </strong></span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- right section of navigation bar -->
+                <div class="right">
+                    <div class="cell">
+                        <a href="https://github.com/ayanantapaul">
+                            <span><strong>GitHub</strong></span>
+                        </a>
+                    </div>
+                    <div class="cell">
+                        <a href="https://www.linkedin.com/in/ayananta-paul/">
+                            <span><strong>LinkedIn</strong></span>
+                        </a>
+                    </div>
+                    <div class="cell">
+                        <a href="mailto:ayanantapaul@gmail.com">
+                            <span><strong>Email</strong></span>
+                        </a>
+                    </div>
+                    <div class="cell">
+                        <a href="./docs/resume.pdf">
+                            <span><strong>Resume</strong></span>
+                        </a>
+                    </div>
+                </div>
+
+            </nav>
+
+            <main>
+                <!-- introduction -->
+                <div class="intro">
+                    <p>
+                        Hi there, I'm <strong>Ayananta Paul</strong>, a B.Tech Student in Electronics and Computer
+                        Science Engineering. I am passionate about bridging the gap between Hardware and Software,
+                        exploring Embedded Systems, Competitive Programming on
+                        <a href="https://codeforces.com/profile/ayanp"><strong>Codeforces</strong></a> and Linux Kernel
+                        development. I am also interested in Embedded systems, FPGA and Verilog, Embedded Linux, PCB
+                        design and Edge Computing.
+                    </p>
+
+                    <!-- list of internal links -->
+                    <!-- 
+                    <strong>Explore:</strong>
+                    <ul>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#contributions">Contributions</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#education">Education</a></li>
+                    </ul> 
+                    -->
+                </div>
+
+                <!-- experience -->
+                <section id="experience">
+                    <h2><span>Experience</span></h2>
+                    <ul>
+                        <li>
+                            <div class="element">
+                                <div class="text">
+                                    Linux Kernel Contributor
+                                </div>
+                                <div class="date">
+                                    July, 2026 - Present
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- contributions -->
+                <section id="contributions">
+                    <h2><span>Open Source Contributions</span></h2>
+                    <ul>
+                        <li>
+                            <h3>Linux Kernel Contributor</h3>
+                            Started at the ground level of Linux kernel contribution — documentation and subsystem
+                            cleanup — to learn the submission workflow properly before attempting substantive patches.
+                            My Contributions:
+                            <a
+                                href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/log/?qt=author&q=Ayananta+Paul">Here</a>
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- projects -->
+                <section id="projects">
+                    <h2><span>Projects</span></h2>
+                    <ul>
+                        No projects added yet.
+                    </ul>
+                </section>
+
+                <!-- skills -->
+                <section id="skills">
+                    <h2><span>Skills</span></h2>
+                    <h3>Technical Skills</h3>
+                    <div class="cells">
+                        <div class="cell">
+                            <img src="./assets/icons/c-logo.png" alt="c-logo">
+                            <span>
+                                <strong>C</strong>
+                            </span>
+                        </div>
+                        <div class="cell">
+                            <img src="./assets/icons/git-logo.png" alt="git-logo">
+                            <span>
+                                <strong>Git</strong>
+                            </span>
+                        </div>
+                        <div class="cell">
+                            <img src="./assets/icons/github-logo.png" alt="github-logo">
+                            <span>
+                                <strong>GitHub</strong>
+                            </span>
+                        </div>
+                        <div class="cell">
+                            <img src="./assets/icons/html-logo.png" alt="html-logo">
+                            <span>
+                                <strong>HTML</strong>
+                            </span>
+                        </div>
+                        <div class="cell">
+                            <img src="./assets/icons/css-logo.png" alt="css-logo">
+                            <span>
+                                <strong>CSS</strong>
+                            </span>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Education -->
+                <section id="education">
+                    <h2><span>Education</span></h2>
+                    <ul>
+                        <li>
+                            B.Tech @ <strong>Narula Institute of Technology</strong>
+                            <br>in Electronics & Computer Science Engineering
+                            <br>
+                            CGPA: -- | <i style="color: grey">expected graduation year: 2030</i>
+                        </li>
+                        <br>
+                        <li>
+                            Higher Secondary @ <strong>Kalyani Public School</strong>
+                            <br>
+                            12th Standard CGPA: 6.82 | Graduated: May, 2026
+                        </li>
+                        <br>
+                        <li>
+                            Secondary @ <strong>Calcutta Airport English High School</strong>
+                            <br>
+                            10th Standard CGPA: 8.13 | Graduated: May, 2024
+                        </li>
+                    </ul>
+                </section>
+
+            </main>
+
+            <hr>
+            <footer>
+                <p>
+                    &copy; <span id="year"></span> <strong>Ayananta Paul</strong>. All rights reserved.
+                </p>
+            </footer>
+
+            <script>
+                // Automatically updates the year to the current year, no need to update manually 
+                document.getElementById("year").textContent = new Date().getFullYear();
+            </script>
+
+        </div>
+    </div>
+</body>

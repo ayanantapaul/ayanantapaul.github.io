@@ -36,7 +36,7 @@ body {
 }
 
 .child {
-    max-width: 600px;
+    max-width: 600px;   /* change this value to adjust the width of the content */
     min-width: 300px;
     margin: 0 auto;
     padding: 0px 20px;
@@ -62,6 +62,7 @@ nav .right {
 
 nav .right .cell a {
     color: var(--link-color);
+    font-size: 15px;
     text-decoration: none;
     padding-left: 7px;
     margin: auto 5px;

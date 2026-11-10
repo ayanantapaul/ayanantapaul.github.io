@@ -51,6 +51,7 @@ nav {
 
 nav .left a {
     color: var(--text-color);
+    font-size: 18px;
     text-decoration: none;
     cursor: default;
 }
@@ -62,7 +63,7 @@ nav .right {
 
 nav .right .cell a {
     color: var(--link-color);
-    font-size: 15px;
+    font-size: 16px;
     text-decoration: none;
     padding-left: 7px;
     margin: auto 5px;

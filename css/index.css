@@ -36,7 +36,8 @@ body {
 }
 
 .child {
-    max-width: 600px;   /* change this value to adjust the width of the content */
+    max-width: 600px;
+    /* change this value to adjust the width of the content */
     min-width: 300px;
     margin: 0 auto;
     padding: 0px 20px;
@@ -47,6 +48,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 2px solid grey;
 }
 
 nav .left a {
@@ -122,6 +124,11 @@ main a:active {
 
 li {
     padding-bottom: 5px;
+}
+
+hr {
+    border: 0.25px solid grey;
+    margin: 20px 0px;
 }
 
 /* for mobile devices with screen 

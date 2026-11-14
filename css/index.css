@@ -48,12 +48,10 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 2px solid grey;
 }
 
 nav .left a {
     color: var(--text-color);
-    font-size: 18px;
     text-decoration: none;
     cursor: default;
 }
@@ -65,7 +63,6 @@ nav .right {
 
 nav .right .cell a {
     color: var(--link-color);
-    font-size: 16px;
     text-decoration: none;
     padding-left: 7px;
     margin: auto 5px;
@@ -127,8 +124,8 @@ li {
 }
 
 hr {
-    border: 0.25px solid grey;
-    margin: 20px 0px;
+    border: 0.01px solid grey;
+    margin: 10px 0px;
 }
 
 /* for mobile devices with screen 

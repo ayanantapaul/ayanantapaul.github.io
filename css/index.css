@@ -36,7 +36,7 @@ body {
 }
 
 .child {
-    max-width: 600px;
+    max-width: 650px;
     /* change this value to adjust the width of the content */
     min-width: 300px;
     margin: 0 auto;
